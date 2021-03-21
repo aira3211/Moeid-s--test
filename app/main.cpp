@@ -1,12 +1,29 @@
 
-#include <iostream>
-#include <stdlib.h>
+# include <iostream>
+# include <chrono>
 
-#include "Foo.h"
+using namespace std;
+
+
 int main()
 {
-  Foo d = Foo();
-  std::cout<< d.doSomething()<<std::endl;
-
+  auto t1 = std::chrono::high_resolution_clock::now();
+  int a,b;
+  int total[2];
+  int counter = 0;
+  cout << "Enter a tow Number: " << endl;
+  cin >> total[0];
+  cin >> total[1];
+  for(int i=total[0]; i<total[1]+1; ++i)
+  {
+      counter += i;
+  }
+  cout << "The sum of two numbers: "<< counter << endl;
+  auto t2 = std :: chrono:: high_resolution_clock::now();
+  auto duration = std::chrono::duration_cast<std::chrono::microseconds>( t2 - t1 ).count();
+  cout <<"Time: " <<duration;
   return 0;
+
+
+
 }
