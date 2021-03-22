@@ -1,0 +1,12 @@
+[
+{
+  "directory": "G:/C++/AW/Moeid's test/Moeid-s--test/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -DENABLE_DOCTEST_IN_LIBRARY @CMakeFiles/myLibrary.dir/includes_CXX.rsp -g -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles\\myLibrary.dir\\src\\Foo.cpp.obj -c \"G:\\C++\\AW\\Moeid's test\\Moeid-s--test\\src\\Foo.cpp\"",
+  "file": "G:/C++/AW/Moeid's test/Moeid-s--test/src/Foo.cpp"
+},
+{
+  "directory": "G:/C++/AW/Moeid's test/Moeid-s--test/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -DENABLE_DOCTEST_IN_LIBRARY @CMakeFiles/main.dir/includes_CXX.rsp -g -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles\\main.dir\\app\\main.cpp.obj -c \"G:\\C++\\AW\\Moeid's test\\Moeid-s--test\\app\\main.cpp\"",
+  "file": "G:/C++/AW/Moeid's test/Moeid-s--test/app/main.cpp"
+}
+]

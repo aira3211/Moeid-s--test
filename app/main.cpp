@@ -8,7 +8,8 @@ using namespace std;
 int main()
 {
   auto t1 = std::chrono::high_resolution_clock::now();
-  int a,b;
+  // int a;
+  // int b;
   int total[2];
   int counter = 0;
   cout << "Enter a tow Number: " << endl;
